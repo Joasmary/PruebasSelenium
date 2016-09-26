@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Parallel test suite" duration-ms="444586" started-at="2016-09-26T13:27:39Z" finished-at="2016-09-26T13:35:04Z">
+    <groups>
+    </groups>
+    <test name="Chrome Test" duration-ms="274881" started-at="2016-09-26T13:27:39Z" finished-at="2016-09-26T13:32:14Z">
+      <class name="example.RecorridoCencosudChrome">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:example.RecorridoCencosudChrome@1fd484c3]" name="setUp" is-config="true" duration-ms="4125" started-at="2016-09-26T10:27:39Z" finished-at="2016-09-26T10:27:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:example.RecorridoCencosudChrome@1fd484c3]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-09-26T10:27:43Z" finished-at="2016-09-26T10:27:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:example.RecorridoCencosudChrome@1fd484c3]" name="setUp" is-config="true" duration-ms="3206" started-at="2016-09-26T10:27:43Z" finished-at="2016-09-26T10:27:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testUntitled()[pri:0, instance:example.RecorridoCencosudChrome@1fd484c3]" name="testUntitled" duration-ms="266426" started-at="2016-09-26T10:27:47Z" finished-at="2016-09-26T10:32:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUntitled -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:example.RecorridoCencosudChrome@1fd484c3]" name="tearDown" is-config="true" duration-ms="1112" started-at="2016-09-26T10:32:13Z" finished-at="2016-09-26T10:32:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:example.RecorridoCencosudChrome@1fd484c3]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-09-26T10:32:13Z" finished-at="2016-09-26T10:32:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:example.RecorridoCencosudChrome@1fd484c3]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-09-26T10:32:14Z" finished-at="2016-09-26T10:32:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- example.RecorridoCencosudChrome -->
+    </test> <!-- Chrome Test -->
+    <test name="Firefox Test" duration-ms="281382" started-at="2016-09-26T13:27:39Z" finished-at="2016-09-26T13:32:21Z">
+      <class name="example.RecorridoCencosudFirefox">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:example.RecorridoCencosudFirefox@68428693]" name="setUp" is-config="true" duration-ms="10888" started-at="2016-09-26T10:27:39Z" finished-at="2016-09-26T10:27:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:example.RecorridoCencosudFirefox@68428693]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-09-26T10:27:50Z" finished-at="2016-09-26T10:27:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:example.RecorridoCencosudFirefox@68428693]" name="setUp" is-config="true" duration-ms="5360" started-at="2016-09-26T10:27:50Z" finished-at="2016-09-26T10:27:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testUntitled()[pri:0, instance:example.RecorridoCencosudFirefox@68428693]" name="testUntitled" duration-ms="264567" started-at="2016-09-26T10:27:55Z" finished-at="2016-09-26T10:32:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUntitled -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:example.RecorridoCencosudFirefox@68428693]" name="afterMethod" is-config="true" duration-ms="1" started-at="2016-09-26T10:32:20Z" finished-at="2016-09-26T10:32:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:example.RecorridoCencosudFirefox@68428693]" name="tearDown" is-config="true" duration-ms="559" started-at="2016-09-26T10:32:20Z" finished-at="2016-09-26T10:32:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:example.RecorridoCencosudFirefox@68428693]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-09-26T10:32:21Z" finished-at="2016-09-26T10:32:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- example.RecorridoCencosudFirefox -->
+    </test> <!-- Firefox Test -->
+    <test name="Internet Explore Test" duration-ms="444586" started-at="2016-09-26T13:27:39Z" finished-at="2016-09-26T13:35:04Z">
+      <class name="example.RecorridoCencosudIE">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:example.RecorridoCencosudIE@26116f4f]" name="setUp" is-config="true" duration-ms="4281" started-at="2016-09-26T10:27:39Z" finished-at="2016-09-26T10:27:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:example.RecorridoCencosudIE@26116f4f]" name="setUp" is-config="true" duration-ms="2013" started-at="2016-09-26T10:27:44Z" finished-at="2016-09-26T10:27:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:example.RecorridoCencosudIE@26116f4f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-09-26T10:27:44Z" finished-at="2016-09-26T10:27:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testUntitled()[pri:0, instance:example.RecorridoCencosudIE@26116f4f]" name="testUntitled" duration-ms="437451" started-at="2016-09-26T10:27:46Z" finished-at="2016-09-26T10:35:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUntitled -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:example.RecorridoCencosudIE@26116f4f]" name="afterMethod" is-config="true" duration-ms="1" started-at="2016-09-26T10:35:03Z" finished-at="2016-09-26T10:35:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:example.RecorridoCencosudIE@26116f4f]" name="tearDown" is-config="true" duration-ms="833" started-at="2016-09-26T10:35:03Z" finished-at="2016-09-26T10:35:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:example.RecorridoCencosudIE@26116f4f]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-09-26T10:35:04Z" finished-at="2016-09-26T10:35:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- example.RecorridoCencosudIE -->
+    </test> <!-- Internet Explore Test -->
+  </suite> <!-- Parallel test suite -->
+</testng-results>
