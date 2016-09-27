@@ -33,7 +33,7 @@ public class RecorridoCencosudIE {
 		capabilities.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS,true);
 		capabilities.setJavascriptEnabled(true);
 		capabilities.setCapability(CapabilityType.ForSeleniumServer.ENSURING_CLEAN_SESSION, true);
-		driver = new RemoteWebDriver(new URL("http://localhost:4446/wd/hub"), capabilities);
+		driver = new RemoteWebDriver(new URL("http://localhost:4445/wd/hub"),capabilities);
 		baseUrl = "http://192.168.0.90:1337/";
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().window().maximize();

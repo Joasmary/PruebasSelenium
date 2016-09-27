@@ -31,22 +31,22 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">0</td><td class="numi">2,9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">0</td><td class="numi">0,7 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
 <tr><th colspan="4">Default test &#8212; failed (configuration methods)</th></tr>
-<tr class="failedodd"><td rowspan="1">example.RecorridoCencosudFirefox</td><td><a href="#m1"><b>setUp</b>  </a></td><td class="numi">1</td><td>1474035467475</td><td class="numi">0</td></tr>
+<tr class="failedodd"><td rowspan="1">example.RecorridoCencosudIE</td><td><a href="#m1"><b>setUp</b>  </a></td><td class="numi">1</td><td>1475010298332</td><td class="numi">0</td></tr>
 <tr><th colspan="4">Default test &#8212; skipped (configuration methods)</th></tr>
-<tr class="skippedodd"><td rowspan="4">example.RecorridoCencosudFirefox</td><td><a href="#m2"><b>setUp</b>  </a></td><td class="numi">1</td><td>1474035470380</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m3"><b>afterMethod</b>  </a></td><td class="numi">1</td><td>1474035470403</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m4"><b>tearDown</b>  </a></td><td class="numi">2</td><td>1474035470405</td><td class="numi">3</td></tr><tr class="skippedodd"><td><a href="#m5"><b>beforeMethod</b>  </a></td><td class="numi">1</td><td>1474035470378</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="4">example.RecorridoCencosudIE</td><td><a href="#m2"><b>setUp</b>  </a></td><td class="numi">1</td><td>1475010299006</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m3"><b>tearDown</b>  </a></td><td class="numi">2</td><td>1475010299019</td><td class="numi">3</td></tr><tr class="skippedodd"><td><a href="#m4"><b>beforeMethod</b>  </a></td><td class="numi">1</td><td>1475010299003</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m5"><b>afterMethod</b>  </a></td><td class="numi">1</td><td>1475010299016</td><td class="numi">0</td></tr>
 <tr><th colspan="4">Default test &#8212; skipped</th></tr>
-<tr class="skippedodd"><td rowspan="1">example.RecorridoCencosudFirefox</td><td><a href="#m6"><b>testUntitled</b>  </a></td><td class="numi">1</td><td>1474035470382</td><td class="numi">18</td></tr>
+<tr class="skippedodd"><td rowspan="1">example.RecorridoCencosudIE</td><td><a href="#m6"><b>testUntitled</b>  </a></td><td class="numi">1</td><td>1475010299009</td><td class="numi">4</td></tr>
 </table>
 <h1>Default test</h1>
-<h2 id="m1">example.RecorridoCencosudFirefox:setUp</h2>
+<h2 id="m1">example.RecorridoCencosudIE:setUp</h2>
 <div style="padding-left:3em">
-<p>Error forwarding the new session cannot find : Capabilities [{ensureCleanSession=true, jenkins.nodeName=master, jenkins.label=amd64, browserName=firefox, javascriptEnabled=true, version=, platform=ANY}]
-Command duration or timeout: 656 milliseconds
+<p>Error forwarding the new session cannot find : Capabilities [{ensureCleanSession=true, jenkins.nodeName=pruebas, jenkins.label=amd64, browserName=internet explorer, javascriptEnabled=true, ignoreProtectedModeSettings=true, version=, platform=WINDOWS}]
+Command duration or timeout: 217 milliseconds
 Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
 System info: host: &apos;Joasmaryp&apos;, ip: &apos;192.168.0.109&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver</p>
@@ -60,9 +60,9 @@ sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 <br/>at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
 <br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:126)
 <br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:153)
-<br/>at example.RecorridoCencosudFirefox.setUp(RecorridoCencosudFirefox.java:42)
+<br/>at example.RecorridoCencosudIE.setUp(RecorridoCencosudIE.java:36)
 <br/>25 lines not shown
-<p>Caused by Error forwarding the new session cannot find : Capabilities [{ensureCleanSession=true, jenkins.nodeName=master, jenkins.label=amd64, browserName=firefox, javascriptEnabled=true, version=, platform=ANY}]
+<p>Caused by Error forwarding the new session cannot find : Capabilities [{ensureCleanSession=true, jenkins.nodeName=pruebas, jenkins.label=amd64, browserName=internet explorer, javascriptEnabled=true, ignoreProtectedModeSettings=true, version=, platform=WINDOWS}]
 Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
 System info: host: &apos;Joasmaryp&apos;, ip: &apos;192.168.0.109&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
 Driver info: driver.version: unknown</p>
@@ -90,16 +90,16 @@ org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:1
 <br/>1 lines not shown
 </div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m2">example.RecorridoCencosudFirefox:setUp</h2>
+<h2 id="m2">example.RecorridoCencosudIE:setUp</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m3">example.RecorridoCencosudFirefox:afterMethod</h2>
+<h2 id="m3">example.RecorridoCencosudIE:tearDown</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m4">example.RecorridoCencosudFirefox:tearDown</h2>
+<h2 id="m4">example.RecorridoCencosudIE:beforeMethod</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m5">example.RecorridoCencosudFirefox:tearDown</h2>
+<h2 id="m5">example.RecorridoCencosudIE:afterMethod</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m6">example.RecorridoCencosudFirefox:beforeMethod</h2>
+<h2 id="m6">example.RecorridoCencosudIE:tearDown</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m7">example.RecorridoCencosudFirefox:testUntitled</h2>
+<h2 id="m7">example.RecorridoCencosudIE:testUntitled</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>

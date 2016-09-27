@@ -2,23 +2,23 @@
 <testng-results skipped="1" failed="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2946" started-at="2016-09-16T14:17:47Z" finished-at="2016-09-16T14:17:50Z">
+  <suite name="Default suite" duration-ms="703" started-at="2016-09-27T21:04:58Z" finished-at="2016-09-27T21:04:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2946" started-at="2016-09-16T14:17:47Z" finished-at="2016-09-16T14:17:50Z">
-      <class name="example.RecorridoCencosudFirefox">
-        <test-method status="FAIL" signature="setUp()[pri:0, instance:example.RecorridoCencosudFirefox@143fe0e5]" name="setUp" is-config="true" duration-ms="0" started-at="2016-09-16T11:17:47Z" finished-at="2016-09-16T11:17:47Z">
+    <test name="Default test" duration-ms="703" started-at="2016-09-27T21:04:58Z" finished-at="2016-09-27T21:04:59Z">
+      <class name="example.RecorridoCencosudIE">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:example.RecorridoCencosudIE@143fe0e5]" name="setUp" is-config="true" duration-ms="0" started-at="2016-09-27T18:04:58Z" finished-at="2016-09-27T18:04:58Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[Error forwarding the new session cannot find : Capabilities [{ensureCleanSession=true, jenkins.nodeName=master, jenkins.label=amd64, browserName=firefox, javascriptEnabled=true, version=, platform=ANY}]
-Command duration or timeout: 656 milliseconds
+              <![CDATA[Error forwarding the new session cannot find : Capabilities [{ensureCleanSession=true, jenkins.nodeName=pruebas, jenkins.label=amd64, browserName=internet explorer, javascriptEnabled=true, ignoreProtectedModeSettings=true, version=, platform=WINDOWS}]
+Command duration or timeout: 217 milliseconds
 Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
 System info: host: 'Joasmaryp', ip: '192.168.0.109', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities [{ensureCleanSession=true, jenkins.nodeName=master, jenkins.label=amd64, browserName=firefox, javascriptEnabled=true, version=, platform=ANY}]
-Command duration or timeout: 656 milliseconds
+              <![CDATA[org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities [{ensureCleanSession=true, jenkins.nodeName=pruebas, jenkins.label=amd64, browserName=internet explorer, javascriptEnabled=true, ignoreProtectedModeSettings=true, version=, platform=WINDOWS}]
+Command duration or timeout: 217 milliseconds
 Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
 System info: host: 'Joasmaryp', ip: '192.168.0.109', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
@@ -32,7 +32,7 @@ Driver info: org.openqa.selenium.remote.RemoteWebDriver
 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
 	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:126)
 	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:153)
-	at example.RecorridoCencosudFirefox.setUp(RecorridoCencosudFirefox.java:42)
+	at example.RecorridoCencosudIE.setUp(RecorridoCencosudIE.java:36)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -57,7 +57,7 @@ Driver info: org.openqa.selenium.remote.RemoteWebDriver
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
-Caused by: org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities [{ensureCleanSession=true, jenkins.nodeName=master, jenkins.label=amd64, browserName=firefox, javascriptEnabled=true, version=, platform=ANY}]
+Caused by: org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities [{ensureCleanSession=true, jenkins.nodeName=pruebas, jenkins.label=amd64, browserName=internet explorer, javascriptEnabled=true, ignoreProtectedModeSettings=true, version=, platform=WINDOWS}]
 Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
 System info: host: 'Joasmaryp', ip: '192.168.0.109', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
 Driver info: driver.version: unknown
@@ -88,31 +88,31 @@ Driver info: driver.version: unknown
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:example.RecorridoCencosudFirefox@143fe0e5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-09-16T11:17:50Z" finished-at="2016-09-16T11:17:50Z">
+        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:example.RecorridoCencosudIE@143fe0e5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-09-27T18:04:59Z" finished-at="2016-09-27T18:04:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="SKIP" signature="setUp()[pri:0, instance:example.RecorridoCencosudFirefox@143fe0e5]" name="setUp" is-config="true" duration-ms="0" started-at="2016-09-16T11:17:50Z" finished-at="2016-09-16T11:17:50Z">
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:example.RecorridoCencosudIE@143fe0e5]" name="setUp" is-config="true" duration-ms="0" started-at="2016-09-27T18:04:59Z" finished-at="2016-09-27T18:04:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="testUntitled()[pri:0, instance:example.RecorridoCencosudFirefox@143fe0e5]" name="testUntitled" duration-ms="18" started-at="2016-09-16T11:17:50Z" finished-at="2016-09-16T11:17:50Z">
+        <test-method status="SKIP" signature="testUntitled()[pri:0, instance:example.RecorridoCencosudIE@143fe0e5]" name="testUntitled" duration-ms="4" started-at="2016-09-27T18:04:59Z" finished-at="2016-09-27T18:04:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUntitled -->
-        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:example.RecorridoCencosudFirefox@143fe0e5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-09-16T11:17:50Z" finished-at="2016-09-16T11:17:50Z">
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:example.RecorridoCencosudIE@143fe0e5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-09-27T18:04:59Z" finished-at="2016-09-27T18:04:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:example.RecorridoCencosudFirefox@143fe0e5]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-09-16T11:17:50Z" finished-at="2016-09-16T11:17:50Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:example.RecorridoCencosudIE@143fe0e5]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-09-27T18:04:59Z" finished-at="2016-09-27T18:04:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:example.RecorridoCencosudFirefox@143fe0e5]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-09-16T11:17:50Z" finished-at="2016-09-16T11:17:50Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:example.RecorridoCencosudIE@143fe0e5]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-09-27T18:04:59Z" finished-at="2016-09-27T18:04:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- example.RecorridoCencosudFirefox -->
+      </class> <!-- example.RecorridoCencosudIE -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
