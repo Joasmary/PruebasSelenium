@@ -29,7 +29,7 @@ public class RecorridoCencosudChrome {
 
 		DesiredCapabilities capabilities = DesiredCapabilities.chrome();
 		capabilities.setCapability("jenkins.label","amd64");
-		capabilities.setCapability("jenkins.nodeName","chrome");
+		capabilities.setCapability("jenkins.nodeName","chrome"); 
 		capabilities.setJavascriptEnabled(true);
 		capabilities.setCapability(CapabilityType.ForSeleniumServer.ENSURING_CLEAN_SESSION, true);
 		driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capabilities);
