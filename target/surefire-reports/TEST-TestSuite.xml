@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="3" time="6.674" errors="0" skipped="18" tests="21" name="TestSuite">
+<testsuite failures="0" time="1,007.565" errors="0" skipped="0" tests="3" name="TestSuite">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="Test"/>
@@ -11,7 +11,7 @@
     <property name="POM_ARTIFACTID" value="WebDriverTest"/>
     <property name="os.name" value="Windows 8.1"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_79\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_79\jre\classes"/>
-    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
     <property name="sun.desktop" value="windows"/>
     <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
@@ -24,11 +24,11 @@
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
     <property name="ProgramFiles" value="C:\Program Files (x86)"/>
-    <property name="maven.repo.local" value="C:\Program Files (x86)\Jenkins\maven-repositories\1"/>
+    <property name="maven.repo.local" value="C:\Program Files (x86)\Jenkins\maven-repositories\0"/>
     <property name="user.language" value="es"/>
     <property name="JOB_BASE_NAME" value="Test"/>
     <property name="M2" value="C:\maven\apache-maven-3.3.9\bin"/>
-    <property name="BUILD_DISPLAY_NAME" value="#80"/>
+    <property name="BUILD_DISPLAY_NAME" value="#83"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_79\jre\bin"/>
     <property name="GIT_PREVIOUS_SUCCESSFUL_COMMIT" value="d80ee5eab96fde0a6fe8b3b136f8c719bcbbe1d8"/>
     <property name="LOCALAPPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local"/>
@@ -41,7 +41,7 @@
     <property name="NODE_NAME" value="master"/>
     <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_79\jre\lib\endorsed"/>
-    <property name="BUILD_ID" value="80"/>
+    <property name="BUILD_ID" value="83"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -76,7 +76,7 @@
     <property name="user.home" value="C:\"/>
     <property name="GIT_COMMITTER_NAME" value="Joasmary"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-Test-80"/>
+    <property name="BUILD_TAG" value="jenkins-Test-83"/>
     <property name="JENKINS_SERVER_COOKIE" value="a4928d572b17f9bb"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
@@ -90,7 +90,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="C:\maven\apache-maven-3.3.9"/>
     <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven32-agent-1.7.jar;C:\maven\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar;C:\maven\apache-maven-3.3.9/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven32Main C:\maven\apache-maven-3.3.9 C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-2.62.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven32-interceptor-1.7.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.7.jar 53362"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven32Main C:\maven\apache-maven-3.3.9 C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-2.62.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven32-interceptor-1.7.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.7.jar 58872"/>
     <property name="Path" value="C:\Program Files\Java\jdk1.7.0_79/bin;C:\maven\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.7.0_79;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.7.0_79\bin;C:\WINDOWS\System32\;"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
@@ -105,7 +105,7 @@
     <property name="HUDSON_HOME" value="C:\Program Files (x86)\Jenkins"/>
     <property name="PATH+MAVEN" value="C:\maven\apache-maven-3.3.9/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/Test/80/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/Test/83/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="MAVEN_OPTS" value="-Xms256m -Xmx512m"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
@@ -119,7 +119,7 @@
 "/>
     <property name="MAVEN_HOME" value="C:\maven\apache-maven-3.3.9"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="80"/>
+    <property name="BUILD_NUMBER" value="83"/>
     <property name="BASE" value="C:\Program Files (x86)\Jenkins"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
     <property name="PROCESSOR_REVISION" value="4501"/>
@@ -139,202 +139,7 @@
     <property name="easyplussdk" value="&quot;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin&quot;"/>
     <property name="GIT_URL" value="https://github.com/Joasmary/PruebasSelenium/"/>
   </properties>
-  <testcase time="1.635" classname="example.RecorridoCencosudIE" name="setUp">
-    <failure message="Error forwarding the new session cannot find : Capabilities [{ensureCleanSession=true, jenkins.nodeName=pruebas, jenkins.label=amd64, browserName=internet explorer, javascriptEnabled=true, ignoreProtectedModeSettings=true, version=, platform=WINDOWS}]
-Command duration or timeout: 647 milliseconds
-Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
-System info: host: &apos;Joasmaryp&apos;, ip: &apos;192.168.0.109&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities [{ensureCleanSession=true, jenkins.nodeName=pruebas, jenkins.label=amd64, browserName=internet explorer, javascriptEnabled=true, ignoreProtectedModeSettings=true, version=, platform=WINDOWS}]
-Command duration or timeout: 647 milliseconds
-Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
-System info: host: &apos;Joasmaryp&apos;, ip: &apos;192.168.0.109&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:126)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:153)
-	at example.RecorridoCencosudIE.setUp(RecorridoCencosudIE.java:36)
-Caused by: org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities [{ensureCleanSession=true, jenkins.nodeName=pruebas, jenkins.label=amd64, browserName=internet explorer, javascriptEnabled=true, ignoreProtectedModeSettings=true, version=, platform=WINDOWS}]
-Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
-System info: host: &apos;Joasmaryp&apos;, ip: &apos;192.168.0.109&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
-Driver info: driver.version: unknown
-	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:115)
-	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:83)
-	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:67)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
-	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:808)
-	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:587)
-	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:221)
-	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
-	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:515)
-	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:185)
-	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
-	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
-	at org.seleniumhq.jetty9.server.Server.handle(Server.java:499)
-	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:310)
-	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:257)
-	at org.seleniumhq.jetty9.io.AbstractConnection$2.run(AbstractConnection.java:540)
-	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
-	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
-	at java.lang.Thread.run(Unknown Source)
-</failure>
-  </testcase>
-  <testcase time="1.641" classname="example.RecorridoCencosudChrome" name="setUp">
-    <failure message="Error forwarding the new session cannot find : Capabilities [{ensureCleanSession=true, jenkins.nodeName=chrome, jenkins.label=amd64, browserName=chrome, javascriptEnabled=true, version=, platform=ANY}]
-Command duration or timeout: 667 milliseconds
-Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
-System info: host: &apos;Joasmaryp&apos;, ip: &apos;192.168.0.109&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities [{ensureCleanSession=true, jenkins.nodeName=chrome, jenkins.label=amd64, browserName=chrome, javascriptEnabled=true, version=, platform=ANY}]
-Command duration or timeout: 667 milliseconds
-Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
-System info: host: &apos;Joasmaryp&apos;, ip: &apos;192.168.0.109&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:126)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:153)
-	at example.RecorridoCencosudChrome.setUp(RecorridoCencosudChrome.java:35)
-Caused by: org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities [{ensureCleanSession=true, jenkins.nodeName=chrome, jenkins.label=amd64, browserName=chrome, javascriptEnabled=true, version=, platform=ANY}]
-Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
-System info: host: &apos;Joasmaryp&apos;, ip: &apos;192.168.0.109&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
-Driver info: driver.version: unknown
-	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:115)
-	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:83)
-	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:67)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
-	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:808)
-	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:587)
-	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:221)
-	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
-	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:515)
-	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:185)
-	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
-	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
-	at org.seleniumhq.jetty9.server.Server.handle(Server.java:499)
-	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:310)
-	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:257)
-	at org.seleniumhq.jetty9.io.AbstractConnection$2.run(AbstractConnection.java:540)
-	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
-	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
-	at java.lang.Thread.run(Unknown Source)
-</failure>
-  </testcase>
-  <testcase time="1.641" classname="example.RecorridoCencosudChrome" name="beforeMethod">
-    <skipped/>
-  </testcase>
-  <testcase time="1.641" classname="example.RecorridoCencosudChrome" name="setUp">
-    <skipped/>
-  </testcase>
-  <testcase time="0" classname="example.RecorridoCencosudChrome" name="testUntitled">
-    <skipped/>
-  </testcase>
-  <testcase time="0" classname="example.RecorridoCencosudChrome" name="afterMethod">
-    <skipped/>
-  </testcase>
-  <testcase time="0" classname="example.RecorridoCencosudChrome" name="tearDown">
-    <skipped/>
-  </testcase>
-  <testcase time="0" classname="example.RecorridoCencosudChrome" name="tearDown">
-    <skipped/>
-  </testcase>
-  <testcase time="0.006" classname="example.RecorridoCencosudIE" name="beforeMethod">
-    <skipped/>
-  </testcase>
-  <testcase time="0.006" classname="example.RecorridoCencosudIE" name="setUp">
-    <skipped/>
-  </testcase>
-  <testcase time="0" classname="example.RecorridoCencosudIE" name="testUntitled">
-    <skipped/>
-  </testcase>
-  <testcase time="0" classname="example.RecorridoCencosudIE" name="afterMethod">
-    <skipped/>
-  </testcase>
-  <testcase time="0" classname="example.RecorridoCencosudIE" name="tearDown">
-    <skipped/>
-  </testcase>
-  <testcase time="0" classname="example.RecorridoCencosudIE" name="tearDown">
-    <skipped/>
-  </testcase>
-  <testcase time="0.002" classname="example.RecorridoCencosudFirefox" name="setUp">
-    <failure message="Error forwarding the new session cannot find : Capabilities [{ensureCleanSession=true, jenkins.nodeName=firefox, jenkins.label=amd64, browserName=firefox, javascriptEnabled=true, version=, platform=ANY}]
-Command duration or timeout: 642 milliseconds
-Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
-System info: host: &apos;Joasmaryp&apos;, ip: &apos;192.168.0.109&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities [{ensureCleanSession=true, jenkins.nodeName=firefox, jenkins.label=amd64, browserName=firefox, javascriptEnabled=true, version=, platform=ANY}]
-Command duration or timeout: 642 milliseconds
-Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
-System info: host: &apos;Joasmaryp&apos;, ip: &apos;192.168.0.109&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:126)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:153)
-	at example.RecorridoCencosudFirefox.setUp(RecorridoCencosudFirefox.java:34)
-Caused by: org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities [{ensureCleanSession=true, jenkins.nodeName=firefox, jenkins.label=amd64, browserName=firefox, javascriptEnabled=true, version=, platform=ANY}]
-Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
-System info: host: &apos;Joasmaryp&apos;, ip: &apos;192.168.0.109&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
-Driver info: driver.version: unknown
-	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:115)
-	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:83)
-	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:67)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
-	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:808)
-	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:587)
-	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:221)
-	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
-	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:515)
-	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:185)
-	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
-	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
-	at org.seleniumhq.jetty9.server.Server.handle(Server.java:499)
-	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:310)
-	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:257)
-	at org.seleniumhq.jetty9.io.AbstractConnection$2.run(AbstractConnection.java:540)
-	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
-	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
-	at java.lang.Thread.run(Unknown Source)
-</failure>
-  </testcase>
-  <testcase time="0.044" classname="example.RecorridoCencosudFirefox" name="beforeMethod">
-    <skipped/>
-  </testcase>
-  <testcase time="0.045" classname="example.RecorridoCencosudFirefox" name="setUp">
-    <skipped/>
-  </testcase>
-  <testcase time="0.002" classname="example.RecorridoCencosudFirefox" name="testUntitled">
-    <skipped/>
-  </testcase>
-  <testcase time="0.003" classname="example.RecorridoCencosudFirefox" name="afterMethod">
-    <skipped/>
-  </testcase>
-  <testcase time="0.004" classname="example.RecorridoCencosudFirefox" name="tearDown">
-    <skipped/>
-  </testcase>
-  <testcase time="0.004" classname="example.RecorridoCencosudFirefox" name="tearDown">
-    <skipped/>
-  </testcase>
+  <testcase time="271.236" classname="example.RecorridoCencosudFirefox" name="testUntitled"/>
+  <testcase time="271.903" classname="example.RecorridoCencosudChrome" name="testUntitled"/>
+  <testcase time="464.426" classname="example.RecorridoCencosudIE" name="testUntitled"/>
 </testsuite>
