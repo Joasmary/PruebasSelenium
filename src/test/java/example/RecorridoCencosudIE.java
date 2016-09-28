@@ -27,13 +27,13 @@ public class RecorridoCencosudIE {
 	public void setUp() throws Exception {
 
 
-		DesiredCapabilities capabilities = DesiredCapabilities.internetExplorer();
-		capabilities.setCapability("jenkins.label","amd64");
-		capabilities.setCapability("jenkins.nodeName","pruebas");
+		DesiredCapabilities capabilities = DesiredCapabilities.htmlUnit();
+		capabilities.setCapability("jenkins.label","linux");
+		//capabilities.setCapability("jenkins.nodeName","pruebas");
 		capabilities.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS,true);
 		capabilities.setJavascriptEnabled(true);
 		capabilities.setCapability(CapabilityType.ForSeleniumServer.ENSURING_CLEAN_SESSION, true);
-		driver = new RemoteWebDriver(new URL("http://localhost:4445/wd/hub"),capabilities);
+		driver = new RemoteWebDriver(new URL("http://192.168.0.160:5555/wd/hub"),capabilities);
 		baseUrl = "http://192.168.0.90:1337/";
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
