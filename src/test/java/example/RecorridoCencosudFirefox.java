@@ -29,12 +29,12 @@ public class RecorridoCencosudFirefox {
 	@BeforeClass(alwaysRun = true)
 	public void setUp() throws Exception {
 
-		DesiredCapabilities capabilities = DesiredCapabilities.htmlUnit();
+		DesiredCapabilities capabilities = DesiredCapabilities.firefox();
 		capabilities.setCapability("jenkins.label","linux");
 		//capabilities.setCapability("jenkins.nodeName","master");
 		capabilities.setJavascriptEnabled(true);
 		capabilities.setCapability(CapabilityType.ForSeleniumServer.ENSURING_CLEAN_SESSION, true);
-		driver = new RemoteWebDriver(new URL("http://192.168.0.160:5555/wd/hub"), capabilities);
+		driver = new RemoteWebDriver(new URL("http/192.168.0.109:4445/wd/hub"), capabilities);
 		baseUrl = "http://192.168.0.90:1337/";
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
