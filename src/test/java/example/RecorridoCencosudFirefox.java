@@ -26,7 +26,7 @@ public class RecorridoCencosudFirefox {
 	@BeforeClass(alwaysRun = true)
 	public void setUp() throws Exception {
 
-		DesiredCapabilities capabilities = DesiredCapabilities.firefox();
+		DesiredCapabilities capabilities = DesiredCapabilities.htmlUnitWithJs();
 		
 		capabilities.setCapability("jenkins.label","linux");
 		capabilities.setCapability("jenkins.nodeName","master");	
