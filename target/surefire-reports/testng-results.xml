@@ -1,56 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="0" total="1" passed="0">
+<testng-results skipped="0" failed="2" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Parallel test suite" duration-ms="47716" started-at="2016-09-29T18:22:13Z" finished-at="2016-09-29T18:23:01Z">
+  <suite name="Parallel test suite" duration-ms="411727" started-at="2016-09-29T21:04:39Z" finished-at="2016-09-29T21:11:31Z">
     <groups>
     </groups>
-    <test name="Firefox Test" duration-ms="47716" started-at="2016-09-29T18:22:13Z" finished-at="2016-09-29T18:23:01Z">
-      <class name="example.RecorridoCencosudFirefox">
-        <test-method status="FAIL" signature="setUp()[pri:0, instance:example.RecorridoCencosudFirefox@5da7ed8f]" name="setUp" is-config="true" duration-ms="0" started-at="2016-09-29T15:22:13Z" finished-at="2016-09-29T15:22:13Z">
+    <test name="Chrome Test" duration-ms="113724" started-at="2016-09-29T21:04:39Z" finished-at="2016-09-29T21:06:33Z">
+      <class name="example.RecorridoCencosudChrome">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:example.RecorridoCencosudChrome@39582e88]" name="setUp" is-config="true" duration-ms="769" started-at="2016-09-29T18:04:39Z" finished-at="2016-09-29T18:04:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:example.RecorridoCencosudChrome@39582e88]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-09-29T18:04:40Z" finished-at="2016-09-29T18:04:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:example.RecorridoCencosudChrome@39582e88]" name="setUp" is-config="true" duration-ms="115" started-at="2016-09-29T18:04:40Z" finished-at="2016-09-29T18:04:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="testUntitled()[pri:0, instance:example.RecorridoCencosudChrome@39582e88]" name="testUntitled" duration-ms="112794" started-at="2016-09-29T18:04:40Z" finished-at="2016-09-29T18:06:33Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
-
-(process:3468): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
-Error: no display specified
-
-Command duration or timeout: 46.99 seconds
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+              <![CDATA[Cannot find links for com.gargoylesoftware.htmlunit.UnexpectedPage@1d0fddd7
+Command duration or timeout: 30.08 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
 System info: host: 'Joasmaryp', ip: '192.168.0.109', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver]]>
+*** Element info: {Using=link text, value=MANTENEDORES}
+Session ID: b4eac2b1-8a6b-47e4-9bf9-ddd4b787fd80
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=LINUX, cssSelectorsEnabled=true, javascriptEnabled=true, browserName=htmlunit, webdriver.remote.sessionid=b4eac2b1-8a6b-47e4-9bf9-ddd4b787fd80, version=null}]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
-
-(process:3468): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
-Error: no display specified
-
-Command duration or timeout: 46.99 seconds
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+              <![CDATA[org.openqa.selenium.WebDriverException: Cannot find links for com.gargoylesoftware.htmlunit.UnexpectedPage@1d0fddd7
+Command duration or timeout: 30.08 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
 System info: host: 'Joasmaryp', ip: '192.168.0.109', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
+*** Element info: {Using=link text, value=MANTENEDORES}
+Session ID: b4eac2b1-8a6b-47e4-9bf9-ddd4b787fd80
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=LINUX, cssSelectorsEnabled=true, javascriptEnabled=true, browserName=htmlunit, webdriver.remote.sessionid=b4eac2b1-8a6b-47e4-9bf9-ddd4b787fd80, version=null}]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:126)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:153)
-	at example.RecorridoCencosudFirefox.setUp(RecorridoCencosudFirefox.java:37)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at example.RecorridoCencosudChrome.testUntitled(RecorridoCencosudChrome.java:84)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:606)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
 	at org.testng.TestRunner.privateRun(TestRunner.java:767)
 	at org.testng.TestRunner.run(TestRunner.java:617)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
@@ -61,29 +72,22 @@ Driver info: org.openqa.selenium.remote.RemoteWebDriver
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:745)
-Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
-
-(process:3468): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
-Error: no display specified
-
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Joasmaryp', ip: '192.168.0.109', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
-Driver info: driver.version: FirefoxDriver
-	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:112)
-	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)
-	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:218)
-	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
-	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:129)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.server.FirefoxDriverProvider.callConstructor(FirefoxDriverProvider.java:91)
-	at org.openqa.selenium.remote.server.FirefoxDriverProvider.newInstance(FirefoxDriverProvider.java:68)
-	at org.openqa.selenium.remote.server.DefaultDriverFactory.newInstance(DefaultDriverFactory.java:60)
-	at org.openqa.selenium.remote.server.DefaultSession$BrowserCreator.call(DefaultSession.java:222)
-	at org.openqa.selenium.remote.server.DefaultSession$BrowserCreator.call(DefaultSession.java:1)
+Caused by: java.lang.IllegalStateException: Cannot find links for com.gargoylesoftware.htmlunit.UnexpectedPage@1d0fddd7
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.findElementByLinkText(HtmlUnitDriver.java:951)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver$5.call(HtmlUnitDriver.java:1705)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver$5.call(HtmlUnitDriver.java:1701)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.implicitlyWaitFor(HtmlUnitDriver.java:1347)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.findElement(HtmlUnitDriver.java:1701)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.findElement(HtmlUnitDriver.java:586)
+	at sun.reflect.GeneratedMethodAccessor134.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy20.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
@@ -94,28 +98,174 @@ Driver info: driver.version: FirefoxDriver
           </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:example.RecorridoCencosudFirefox@5da7ed8f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-09-29T15:23:01Z" finished-at="2016-09-29T15:23:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="SKIP" signature="setUp()[pri:0, instance:example.RecorridoCencosudFirefox@5da7ed8f]" name="setUp" is-config="true" duration-ms="0" started-at="2016-09-29T15:23:01Z" finished-at="2016-09-29T15:23:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="testUntitled()[pri:0, instance:example.RecorridoCencosudFirefox@5da7ed8f]" name="testUntitled" duration-ms="1" started-at="2016-09-29T15:23:01Z" finished-at="2016-09-29T15:23:01Z">
-          <reporter-output>
-          </reporter-output>
         </test-method> <!-- testUntitled -->
-        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:example.RecorridoCencosudFirefox@5da7ed8f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-09-29T15:23:01Z" finished-at="2016-09-29T15:23:01Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:example.RecorridoCencosudChrome@39582e88]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-09-29T18:06:33Z" finished-at="2016-09-29T18:06:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:example.RecorridoCencosudFirefox@5da7ed8f]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-09-29T15:23:01Z" finished-at="2016-09-29T15:23:01Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:example.RecorridoCencosudChrome@39582e88]" name="tearDown" is-config="true" duration-ms="17" started-at="2016-09-29T18:06:33Z" finished-at="2016-09-29T18:06:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:example.RecorridoCencosudFirefox@5da7ed8f]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-09-29T15:23:01Z" finished-at="2016-09-29T15:23:01Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:example.RecorridoCencosudChrome@39582e88]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-09-29T18:06:33Z" finished-at="2016-09-29T18:06:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- example.RecorridoCencosudChrome -->
+    </test> <!-- Chrome Test -->
+    <test name="Internet Explore Test" duration-ms="311104" started-at="2016-09-29T21:04:39Z" finished-at="2016-09-29T21:09:50Z">
+      <class name="example.RecorridoCencosudIE">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:example.RecorridoCencosudIE@42a2bf0f]" name="setUp" is-config="true" duration-ms="775" started-at="2016-09-29T18:04:39Z" finished-at="2016-09-29T18:04:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:example.RecorridoCencosudIE@42a2bf0f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-09-29T18:04:40Z" finished-at="2016-09-29T18:04:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:example.RecorridoCencosudIE@42a2bf0f]" name="setUp" is-config="true" duration-ms="96" started-at="2016-09-29T18:04:40Z" finished-at="2016-09-29T18:04:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="testUntitled()[pri:0, instance:example.RecorridoCencosudIE@42a2bf0f]" name="testUntitled" duration-ms="309489" started-at="2016-09-29T18:04:40Z" finished-at="2016-09-29T18:09:49Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate a node using //a[contains(text(), 'Alejandra Alvarez (Administrador)')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'localhost.localdomain', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.10.0-327.el7.x86_64', java.version: '1.8.0_91'
+Driver info: driver.version: EventFiringWebDriver
+Command duration or timeout: 30.13 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Joasmaryp', ip: '192.168.0.109', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
+*** Element info: {Using=xpath, value=//a[contains(text(), 'Alejandra Alvarez (Administrador)')]}
+Session ID: 63d51472-abea-4e37-88f3-ec4332fe1d72
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=LINUX, cssSelectorsEnabled=true, javascriptEnabled=true, browserName=htmlunit, webdriver.remote.sessionid=63d51472-abea-4e37-88f3-ec4332fe1d72, version=null}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate a node using //a[contains(text(), 'Alejandra Alvarez (Administrador)')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'localhost.localdomain', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.10.0-327.el7.x86_64', java.version: '1.8.0_91'
+Driver info: driver.version: EventFiringWebDriver
+Command duration or timeout: 30.13 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Joasmaryp', ip: '192.168.0.109', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
+*** Element info: {Using=xpath, value=//a[contains(text(), 'Alejandra Alvarez (Administrador)')]}
+Session ID: 63d51472-abea-4e37-88f3-ec4332fe1d72
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=LINUX, cssSelectorsEnabled=true, javascriptEnabled=true, browserName=htmlunit, webdriver.remote.sessionid=63d51472-abea-4e37-88f3-ec4332fe1d72, version=null}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at example.RecorridoCencosudIE.testUntitled(RecorridoCencosudIE.java:204)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate a node using //a[contains(text(), 'Alejandra Alvarez (Administrador)')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'localhost.localdomain', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.10.0-327.el7.x86_64', java.version: '1.8.0_91'
+Driver info: driver.version: EventFiringWebDriver
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Joasmaryp', ip: '192.168.0.109', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
+Driver info: driver.version: EventFiringWebDriver
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.findElementByXPath(HtmlUnitDriver.java:1145)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver$5.call(HtmlUnitDriver.java:1705)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver$5.call(HtmlUnitDriver.java:1701)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.implicitlyWaitFor(HtmlUnitDriver.java:1347)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.findElement(HtmlUnitDriver.java:1701)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.findElement(HtmlUnitDriver.java:586)
+	at sun.reflect.GeneratedMethodAccessor145.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy20.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	... 1 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUntitled -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:example.RecorridoCencosudIE@42a2bf0f]" name="afterMethod" is-config="true" duration-ms="1" started-at="2016-09-29T18:09:49Z" finished-at="2016-09-29T18:09:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:example.RecorridoCencosudIE@42a2bf0f]" name="tearDown" is-config="true" duration-ms="729" started-at="2016-09-29T18:09:49Z" finished-at="2016-09-29T18:09:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:example.RecorridoCencosudIE@42a2bf0f]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-09-29T18:09:50Z" finished-at="2016-09-29T18:09:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- example.RecorridoCencosudIE -->
+    </test> <!-- Internet Explore Test -->
+    <test name="Firefox Test" duration-ms="411727" started-at="2016-09-29T21:04:39Z" finished-at="2016-09-29T21:11:31Z">
+      <class name="example.RecorridoCencosudFirefox">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:example.RecorridoCencosudFirefox@6791525e]" name="setUp" is-config="true" duration-ms="788" started-at="2016-09-29T18:04:39Z" finished-at="2016-09-29T18:04:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:example.RecorridoCencosudFirefox@6791525e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-09-29T18:04:40Z" finished-at="2016-09-29T18:04:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:example.RecorridoCencosudFirefox@6791525e]" name="setUp" is-config="true" duration-ms="99" started-at="2016-09-29T18:04:40Z" finished-at="2016-09-29T18:04:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testUntitled()[pri:0, instance:example.RecorridoCencosudFirefox@6791525e]" name="testUntitled" duration-ms="410830" started-at="2016-09-29T18:04:40Z" finished-at="2016-09-29T18:11:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUntitled -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:example.RecorridoCencosudFirefox@6791525e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2016-09-29T18:11:31Z" finished-at="2016-09-29T18:11:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:example.RecorridoCencosudFirefox@6791525e]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-09-29T18:11:31Z" finished-at="2016-09-29T18:11:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:example.RecorridoCencosudFirefox@6791525e]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-09-29T18:11:31Z" finished-at="2016-09-29T18:11:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -1,14 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite verbose="0" name="Failed suite [Parallel test suite]" parallel="tests">
-  <test name="Firefox Test(failed)" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <test name="Chrome Test(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
     <classes>
+      <class name="example.RecorridoCencosudChrome">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="testUntitled"/>
+          <include name="beforeMethod"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- example.RecorridoCencosudChrome -->
       <class name="example.RecorridoCencosudFirefox">
         <methods>
           <include name="setUp"/>
-          <include name="testUntitled"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- example.RecorridoCencosudFirefox -->
+      <class name="example.RecorridoCencosudIE">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- example.RecorridoCencosudIE -->
     </classes>
-  </test> <!-- Firefox Test(failed) -->
+  </test> <!-- Chrome Test(failed) -->
+  <test name="Internet Explore Test(failed)" parallel="tests">
+    <classes>
+      <class name="example.RecorridoCencosudChrome">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- example.RecorridoCencosudChrome -->
+      <class name="example.RecorridoCencosudFirefox">
+        <methods>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- example.RecorridoCencosudFirefox -->
+      <class name="example.RecorridoCencosudIE">
+        <methods>
+          <include name="testUntitled"/>
+          <include name="tearDown"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- example.RecorridoCencosudIE -->
+    </classes>
+  </test> <!-- Internet Explore Test(failed) -->
 </suite> <!-- Failed suite [Parallel test suite] -->

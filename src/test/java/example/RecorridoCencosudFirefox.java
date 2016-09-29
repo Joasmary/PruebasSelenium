@@ -26,11 +26,12 @@ public class RecorridoCencosudFirefox {
 	@BeforeClass(alwaysRun = true)
 	public void setUp() throws Exception {
 
-		DesiredCapabilities capabilities = DesiredCapabilities.htmlUnitWithJs();
+		DesiredCapabilities capabilities = DesiredCapabilities.firefox();
 		
 		capabilities.setCapability("jenkins.label","linux");
 		capabilities.setCapability("jenkins.nodeName","master");	
-	   // capabilities.setCapability("firefox_binary","/usr/bin/firefox" );
+	   // capabilities.setCapability("browserVersion","45.4.0" );
+	    capabilities.setVersion("45.4.0");
 		capabilities.setJavascriptEnabled(true);
 		capabilities.setCapability(CapabilityType.ForSeleniumServer.ENSURING_CLEAN_SESSION, true);
 		
