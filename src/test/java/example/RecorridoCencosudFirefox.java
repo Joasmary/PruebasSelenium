@@ -33,6 +33,7 @@ public class RecorridoCencosudFirefox {
 	   // capabilities.setCapability("firefox_binary","/usr/bin/firefox" );
 		capabilities.setJavascriptEnabled(true);
 		capabilities.setCapability(CapabilityType.ForSeleniumServer.ENSURING_CLEAN_SESSION, true);
+		
 		driver = new RemoteWebDriver(new URL("http://192.168.0.160:5555/wd/hub"), capabilities);
 		baseUrl = "http://192.168.0.90:1337/";
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
