@@ -27,8 +27,8 @@ public class RecorridoCencosudIE {
 	public void setUp() throws Exception {
 
 
-		DesiredCapabilities capabilities = DesiredCapabilities.htmlUnit();
-		capabilities.setCapability("jenkins.label","linux");
+		DesiredCapabilities capabilities = DesiredCapabilities.internetExplorer();
+		//capabilities.setCapability("jenkins.label","linux");
 		//capabilities.setCapability("jenkins.nodeName","pruebas");
 		capabilities.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS,true);
 		capabilities.setJavascriptEnabled(true);

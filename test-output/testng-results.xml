@@ -2,36 +2,36 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="347981" started-at="2016-09-28T17:45:53Z" finished-at="2016-09-28T17:51:41Z">
+  <suite name="Default suite" duration-ms="295284" started-at="2016-09-29T18:46:03Z" finished-at="2016-09-29T18:50:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="347981" started-at="2016-09-28T17:45:53Z" finished-at="2016-09-28T17:51:41Z">
+    <test name="Default test" duration-ms="295284" started-at="2016-09-29T18:46:03Z" finished-at="2016-09-29T18:50:59Z">
       <class name="example.RecorridoCencosudFirefox">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:example.RecorridoCencosudFirefox@6dc5e4c5]" name="setUp" is-config="true" duration-ms="2044" started-at="2016-09-28T14:45:53Z" finished-at="2016-09-28T14:45:55Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:example.RecorridoCencosudFirefox@84e94ba]" name="setUp" is-config="true" duration-ms="5713" started-at="2016-09-29T15:46:03Z" finished-at="2016-09-29T15:46:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:example.RecorridoCencosudFirefox@6dc5e4c5]" name="setUp" is-config="true" duration-ms="127" started-at="2016-09-28T14:45:55Z" finished-at="2016-09-28T14:45:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:example.RecorridoCencosudFirefox@6dc5e4c5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-09-28T14:45:55Z" finished-at="2016-09-28T14:45:55Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:example.RecorridoCencosudFirefox@84e94ba]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-09-29T15:46:09Z" finished-at="2016-09-29T15:46:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testUntitled()[pri:0, instance:example.RecorridoCencosudFirefox@6dc5e4c5]" name="testUntitled" duration-ms="345777" started-at="2016-09-28T14:45:55Z" finished-at="2016-09-28T14:51:41Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:example.RecorridoCencosudFirefox@84e94ba]" name="setUp" is-config="true" duration-ms="4499" started-at="2016-09-29T15:46:09Z" finished-at="2016-09-29T15:46:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testUntitled()[pri:0, instance:example.RecorridoCencosudFirefox@84e94ba]" name="testUntitled" duration-ms="285052" started-at="2016-09-29T15:46:14Z" finished-at="2016-09-29T15:50:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUntitled -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:example.RecorridoCencosudFirefox@6dc5e4c5]" name="afterMethod" is-config="true" duration-ms="1" started-at="2016-09-28T14:51:41Z" finished-at="2016-09-28T14:51:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:example.RecorridoCencosudFirefox@6dc5e4c5]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-09-28T14:51:41Z" finished-at="2016-09-28T14:51:41Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:example.RecorridoCencosudFirefox@84e94ba]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-09-29T15:50:59Z" finished-at="2016-09-29T15:50:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:example.RecorridoCencosudFirefox@6dc5e4c5]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-09-28T14:51:41Z" finished-at="2016-09-28T14:51:41Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:example.RecorridoCencosudFirefox@84e94ba]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-09-29T15:50:59Z" finished-at="2016-09-29T15:50:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:example.RecorridoCencosudFirefox@84e94ba]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-09-29T15:50:59Z" finished-at="2016-09-29T15:50:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

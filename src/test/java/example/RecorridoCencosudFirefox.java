@@ -4,7 +4,6 @@ package example;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
-import org.testng.Assert;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 import org.testng.annotations.*;
@@ -13,8 +12,6 @@ import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
-import com.thoughtworks.selenium.DefaultSelenium;
-import com.thoughtworks.selenium.Selenium;
 
 
 
@@ -30,11 +27,13 @@ public class RecorridoCencosudFirefox {
 	public void setUp() throws Exception {
 
 		DesiredCapabilities capabilities = DesiredCapabilities.firefox();
+		
 		capabilities.setCapability("jenkins.label","linux");
-		//capabilities.setCapability("jenkins.nodeName","master");
+		capabilities.setCapability("jenkins.nodeName","master");	
+	   // capabilities.setCapability("firefox_binary","/usr/bin/firefox" );
 		capabilities.setJavascriptEnabled(true);
 		capabilities.setCapability(CapabilityType.ForSeleniumServer.ENSURING_CLEAN_SESSION, true);
-		driver = new RemoteWebDriver(new URL("http/192.168.0.109:4445/wd/hub"), capabilities);
+		driver = new RemoteWebDriver(new URL("http://192.168.0.109:5555/wd/hub"), capabilities);
 		baseUrl = "http://192.168.0.90:1337/";
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
