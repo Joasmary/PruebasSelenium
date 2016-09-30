@@ -2,40 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="267437" started-at="2016-09-30T14:03:34Z" finished-at="2016-09-30T14:08:01Z">
+  <suite name="Default suite" duration-ms="27938" started-at="2016-09-30T15:08:11Z" finished-at="2016-09-30T15:08:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="267437" started-at="2016-09-30T14:03:34Z" finished-at="2016-09-30T14:08:01Z">
-      <class name="example.RecorridoCencosudFirefox">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:example.RecorridoCencosudFirefox@5b2e79d0]" name="setUp" is-config="true" duration-ms="5966" started-at="2016-09-30T11:03:34Z" finished-at="2016-09-30T11:03:40Z">
+    <test name="Default test" duration-ms="27938" started-at="2016-09-30T15:08:11Z" finished-at="2016-09-30T15:08:39Z">
+      <class name="example.NewTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:example.NewTest@62b6bb33]" name="beforeTest" is-config="true" duration-ms="9387" started-at="2016-09-30T12:08:11Z" finished-at="2016-09-30T12:08:20Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:example.RecorridoCencosudFirefox@5b2e79d0]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-09-30T11:03:40Z" finished-at="2016-09-30T11:03:40Z">
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testEasy()[pri:0, instance:example.NewTest@62b6bb33]" name="testEasy" duration-ms="17207" started-at="2016-09-30T12:08:20Z" finished-at="2016-09-30T12:08:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:example.RecorridoCencosudFirefox@5b2e79d0]" name="setUp" is-config="true" duration-ms="3322" started-at="2016-09-30T11:03:40Z" finished-at="2016-09-30T11:03:43Z">
+        </test-method> <!-- testEasy -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:example.NewTest@62b6bb33]" name="afterTest" is-config="true" duration-ms="1324" started-at="2016-09-30T12:08:38Z" finished-at="2016-09-30T12:08:39Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testUntitled()[pri:0, instance:example.RecorridoCencosudFirefox@5b2e79d0]" name="testUntitled" duration-ms="258109" started-at="2016-09-30T11:03:43Z" finished-at="2016-09-30T11:08:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testUntitled -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:example.RecorridoCencosudFirefox@5b2e79d0]" name="afterMethod" is-config="true" duration-ms="2" started-at="2016-09-30T11:08:01Z" finished-at="2016-09-30T11:08:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:example.RecorridoCencosudFirefox@5b2e79d0]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-09-30T11:08:01Z" finished-at="2016-09-30T11:08:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:example.RecorridoCencosudFirefox@5b2e79d0]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-09-30T11:08:01Z" finished-at="2016-09-30T11:08:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- example.RecorridoCencosudFirefox -->
+        </test-method> <!-- afterTest -->
+      </class> <!-- example.NewTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

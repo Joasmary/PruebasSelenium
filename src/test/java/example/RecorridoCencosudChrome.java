@@ -29,7 +29,6 @@ public class RecorridoCencosudChrome {
 
 		DesiredCapabilities capabilities = DesiredCapabilities.firefox();
 		capabilities.setCapability("jenkins.label","linux");
-		//capabilities.setCapability("jenkins.nodeName","chrome"); 
 		 capabilities.setVersion("46.0.1");
 		capabilities.setJavascriptEnabled(true);
 		capabilities.setCapability(CapabilityType.ForSeleniumServer.ENSURING_CLEAN_SESSION, true);

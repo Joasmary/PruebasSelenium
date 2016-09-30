@@ -29,12 +29,9 @@ public class RecorridoCencosudFirefox {
 		DesiredCapabilities capabilities = DesiredCapabilities.firefox();
 		
 		capabilities.setCapability("jenkins.label","linux");
-		capabilities.setCapability("jenkins.nodeName","master");	
-	   // capabilities.setCapability("browserVersion","45.4.0" );
 	    capabilities.setVersion("46.0.1");
 		capabilities.setJavascriptEnabled(true);
 		capabilities.setCapability(CapabilityType.ForSeleniumServer.ENSURING_CLEAN_SESSION, true);
-		
 		driver = new RemoteWebDriver(new URL("http://192.168.0.160:5555/wd/hub"), capabilities);
 		baseUrl = "http://192.168.0.90:1337/";
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
