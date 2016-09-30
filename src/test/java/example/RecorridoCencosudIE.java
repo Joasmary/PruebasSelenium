@@ -202,13 +202,11 @@ public class RecorridoCencosudIE {
 
 		Thread.sleep(8000);
 		// click | link=Alejandra Alvarez (Administrador) | 
-		valor= driver.findElement(By.xpath("//a[contains(text(), 'Alejandra Alvarez (Administrador)')]")).getAttribute("href");
-		driver.get( valor);
+		driver.findElement(By.linkText("Alejandra Alvarez (Administrador)")).click();
 
 		Thread.sleep(8000);
 		// click | link=Cerrar Sesión | 
-		valor= driver.findElement(By.xpath("//a[contains(text(), 'Cerrar Sesión')]")).getAttribute("href");
-		driver.get( valor);
+		driver.findElement(By.linkText("Cerrar Sesión")).click();
 	}
 
 	@AfterMethod
