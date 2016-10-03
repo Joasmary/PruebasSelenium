@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="example.RecorridoCencosudFirefox">
+      <class name="example.RecorridoCencosudIE">
         <methods>
-          <include name="setUp"/>
           <include name="testUntitled"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- example.RecorridoCencosudFirefox -->
+      </class> <!-- example.RecorridoCencosudIE -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

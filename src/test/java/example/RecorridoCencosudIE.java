@@ -29,7 +29,7 @@ public class RecorridoCencosudIE {
 
 		DesiredCapabilities capabilities = DesiredCapabilities.internetExplorer();
 		capabilities.setCapability("jenkins.label","linux");
-		 capabilities.setVersion("46.0.1");
+		capabilities.setVersion("46.0.1");
 		capabilities.setJavascriptEnabled(true);
 		capabilities.setCapability(CapabilityType.ForSeleniumServer.ENSURING_CLEAN_SESSION, true);
 		driver = new RemoteWebDriver(new URL("http://192.168.0.109:5555/wd/hub"),capabilities);
