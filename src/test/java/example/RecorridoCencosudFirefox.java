@@ -27,7 +27,6 @@ public class RecorridoCencosudFirefox {
 	public void setUp() throws Exception {
 
 		DesiredCapabilities capabilities = DesiredCapabilities.firefox();
-		
 		capabilities.setCapability("jenkins.label","linux");
 	    capabilities.setVersion("46.0.1");
 		capabilities.setJavascriptEnabled(true);
